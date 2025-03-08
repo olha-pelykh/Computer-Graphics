@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Olha Pelykh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab1 Pelykh</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="800" height="800"></canvas>
+    <div id="data">
+      <label for="x1">X1:</label>
+      <input type="number" id="x1" name="x1" /><br /><br />
+      <label for="y1">Y1:</label>
+      <input type="number" id="y1" name="y1" /><br /><br />
+      <label for="x2">X2:</label>
+      <input type="number" id="x2" name="x2" /><br /><br />
+      <label for="y2">Y2:</label>
+      <input type="number" id="y2" name="y2" /><br /><br />
+      <label for="fillColor">Колір заливки:</label>
+      <input type="color" id="fillColor" name="fillColor" /><br /><br />
+      <label for="vertexType">Тип вершин:</label>
+      <select id="vertexType">
+        <option value="circle">Кружечки</option>
+        <option value="square">Квадратики</option></select
+      ><br /><br />
+      <button id="draw">Намалювати</button>
+      <button id="clear">Очистити</button>
+    </div>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+canvas {
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+}
+
+#data {
+  margin-left: 3%;
+  margin-top: 20%;
+}
