@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+#editor {
+  border: solid 1px;
+  border-right-color: #a1a1a1;
+  background-color: #171717;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-color: #fff;
+}
+
+#control-panel {
+  background-color: #212121;
+  flex-grow: 1;
+  border-left-color: #ffffff;
+  padding-left: 2%;
+  padding-right: 1%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#slider {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 80%;
+  height: 15px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #999999;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #999999;
+}
+
+.wrapper {
+  display: flex;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  color: #b3b3b3;
+}
+
+#curr-amount {
+  position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  align-self: center;
+  background-color: #111;
+  border: #111 solid 1px;
+  border-radius: 15%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #b3b3b3;
+  padding: 10px 12px;
+  font-size: 15px;
+}
+
+#gaps {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  font-size: 15px;
+  margin: 20px 20px;
+}
+
+.inputs {
+  width: 80%;
+  margin: auto 20px;
+  background-color: #111;
+  border: #111 solid 1px;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  color: #b3b3b3;
+  text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputs:focus {
+  outline: none;
+  border-color: #a1a1a1;
+}
+
+.add1 {
+  padding: 2%;
+  border: 1px #808080 solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  justify-content: center;
+  padding-bottom: 4%;
+  margin-bottom: 10px;
+}
+
+.add1 div {
+  display: flex;
+  margin-left: 5%;
+}

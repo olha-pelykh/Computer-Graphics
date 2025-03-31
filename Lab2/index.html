@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8" />
+	<meta name="author" content="Anastasiia Feduniak">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab2 Feduniak</title>
+
+</head>
+<body>
+	<canvas id="editor" width="auto" height="auto"></canvas>
+    <div id="control-panel">
+    	<div class="wrapper">
+    		<label for="slider" id="curr-amount">0</label>
+    		<label for="slider">5</label>
+    	 <input type="range" id="slider" min="5" max="50" value="5">
+    		 <label for="slider">50</label>
+
+    	</div>
+    	<button id="clearField">Clear</button>
+    	<form id="gaps">
+    		<label for="h-gap">h</label>
+    		<input type="number" class="inputs" id="h-gap" value="0"></form>
+    	</form>
+
+    	<div class="add1">
+    		<div>
+    			<label for="h-num">h</label>
+    			<input type="number" class="inputs" value="1" id="h-num">
+    		</div>
+    		<button id="show-something">Show</button>
+    	</form>
+    </div>
+    <div class="add1">
+    	<div>
+    		<label for="bernstein-t">t</label>
+    		<input type="number" class="inputs" value="0" id="bernstein-t">
+    	</div>
+		<button id="bernstein-polynom">Show</button>
+    </div>
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>
